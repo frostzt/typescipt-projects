@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "parcel": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:db": "json-server -w db.json",
+    "start:server": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
